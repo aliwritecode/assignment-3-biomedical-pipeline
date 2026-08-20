@@ -1,0 +1,12 @@
+n_objects: 23
+area: mean=244.3478, std=184.9810, min=65.0000, max=915.0000, median=179.0000
+eccentricity: mean=0.6062, std=0.2190, min=0.0000, max=0.9653, median=0.6004
+solidity: mean=0.9347, std=0.0661, min=0.7297, max=0.9877, median=0.9572
+mean_intensity: mean=0.2403, std=0.0377, min=0.1887, max=0.2980, median=0.2322
+equivalent_diameter_area: mean=16.6722, std=5.7577, min=9.0973, max=34.1323, median=15.0967
+total_area_px: 5620.0
+area_fraction: 0.0858
+density_class_heuristic: normal
+otsu_threshold: 0.1328
+dice_vs_gt: 0.9676
+iou_vs_gt: 0.9372

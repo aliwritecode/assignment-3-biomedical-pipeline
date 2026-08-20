@@ -1,0 +1,28 @@
+{
+  "image_id": "train_001",
+  "llava_grayscale": {
+    "raw": "{\n  \"modality\": \"MRI\",\n  \"tissue_type\": \"Bone\",\n  \"notable_features\": [\"Bone marrow\"],\n  \"image_quality\": \"Poor\"\n}",
+    "json": {
+      "modality": "MRI",
+      "tissue_type": "Bone",
+      "notable_features": [
+        "Bone marrow"
+      ],
+      "image_quality": "Poor"
+    }
+  },
+  "gemma3_rgb": {
+    "raw": "{\n  \"modality\": \"microscopy\",\n  \"tissue_type\": \"cells\",\n  \"notable_features\": [\n    \"multiple circular and oval shaped objects\",\n    \"objects are blue\",\n    \"objects are scattered throughout the image\",\n    \"objects vary in size\"\n  ],\n  \"image_quality\": \"acceptable\"\n}",
+    "json": {
+      "modality": "microscopy",
+      "tissue_type": "cells",
+      "notable_features": [
+        "multiple circular and oval shaped objects",
+        "objects are blue",
+        "objects are scattered throughout the image",
+        "objects vary in size"
+      ],
+      "image_quality": "acceptable"
+    }
+  }
+}

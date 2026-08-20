@@ -1,0 +1,50 @@
+NAIVE PROMPT
+Describe this medical image.
+
+NAIVE RESPONSE
+This medical image appears to be a microscopic view, likely a photomicrograph, showing a collection of circular or oval structures within a dark background. 
+
+Here's a breakdown of what we can observe:
+
+* **Shapes:** The structures are predominantly circular or oval, with varying sizes. Some are more defined, while others are less clear.
+* **Background:** The background is dark, which is typical for staining techniques used in microscopy to highlight specific cellular components.
+* **Possible Interpretation:** Based on the appearance, these could be:
+    * **Cysts:** These are fluid-filled sacs, and the circular shape is consistent with this.
+    * **Cells:** Certain cell types, particularly those with a defined nucleus and some granular content, can appear circular or oval in microscopic images. 
+    * **Calcifications:**  Calcifications (deposits of calcium) can also appear as rounded structures. 
+
+**Important Note:**  Without additional information like the staining method, the tissue type, and the clinical context, it's impossible to definitively identify what these structures are. Further analysis by a pathologist would be needed to provide a precise diagnosis. 
+
+**Disclaimer:** *I am an AI chatbot and cannot provide medical diagnoses. This description is based solely on the visual information provided in the image.*
+
+STRUCTURED PROMPT
+You are a descriptive biomedical imaging assistant, NOT a clinician.
+Describe visual appearance only. Do not diagnose, grade disease, name a patient, or recommend treatment.
+
+Look at the image and fill the JSON schema below. If a field cannot be determined from the pixels, write "uncertain" rather than guessing. Prefer under-claiming over hallucination.
+
+Return JSON only — no markdown fences, no commentary, no extra keys:
+{
+  "modality": string,
+  "tissue_type": string,
+  "notable_features": [string],
+  "image_quality": string
+}
+
+Allowed image_quality values: "good", "acceptable", "poor", "uncertain".
+This is an educational exercise. The model is not clinically cleared.
+
+STRUCTURED RESPONSE
+{
+  "modality": "microscopy",
+  "tissue_type": "unknown",
+  "notable_features": [
+    "multiple circular and oval shapes",
+    "varying sizes of the shapes",
+    "shapes are distributed throughout the image",
+    "grayscale tones"
+  ],
+  "image_quality": "acceptable"
+}
+
+REPEATED RUNS IDENTICAL? False

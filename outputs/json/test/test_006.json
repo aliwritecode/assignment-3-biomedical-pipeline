@@ -1,0 +1,23 @@
+{
+  "record": {
+    "image_id": "test_006",
+    "n_objects": 8,
+    "mean_area": 198.38,
+    "density_class": "sparse",
+    "quality_flag": "ok",
+    "density_class_computed": "sparse",
+    "area_fraction": 0.0242,
+    "mean_eccentricity": 0.6205,
+    "mean_solidity": 0.9591,
+    "mean_intensity": 0.2693,
+    "llm_n_objects_raw": 8,
+    "llm_mean_area_raw": 198.375,
+    "narrative": "**\nThe image appears to contain 8 distinct objects, with a mean area of approximately 198.4 pixels. The objects are relatively small and sparse, with a median equivalent diameter of about 16.03 pixels. The mean intensity of the objects is relatively low, suggesting they may be of a certain type or have a specific characteristic.\n\n**",
+    "dice_vs_gt": 0.9971581938752263,
+    "iou_vs_gt": 0.9943324937063397,
+    "unet_dice_vs_gt": 0.9971581938752263,
+    "unet_iou_vs_gt": 0.9943324937063397
+  },
+  "llm_raw": "**PARAGRAPH:**\nThe image appears to contain 8 distinct objects, with a mean area of approximately 198.4 pixels. The objects are relatively small and sparse, with a median equivalent diameter of about 16.03 pixels. The mean intensity of the objects is relatively low, suggesting they may be of a certain type or have a specific characteristic.\n\n**JSON:**\n{\n  \"image_id\": \"test_006\",\n  \"n_objects\": 8,\n  \"mean_area\": 198.3750,\n  \"density_class\": \"sparse\",\n  \"quality_flag\": \"ok\"\n}",
+  "numeric_summary": "n_objects: 8\narea: mean=198.3750, std=88.5338, min=76.0000, max=317.0000, median=204.0000\neccentricity: mean=0.6205, std=0.1349, min=0.3686, max=0.7702, median=0.6692\nsolidity: mean=0.9591, std=0.0190, min=0.9200, max=0.9856, median=0.9647\nmean_intensity: mean=0.2693, std=0.0526, min=0.1790, max=0.3129, median=0.3032\nequivalent_diameter_area: mean=15.4423, std=3.7567, min=9.8370, max=20.0902, median=16.0257\ntotal_area_px: 1587.0\narea_fraction: 0.0242\ndensity_class_heuristic: sparse\narea_fraction_mask: 0.0242"
+}

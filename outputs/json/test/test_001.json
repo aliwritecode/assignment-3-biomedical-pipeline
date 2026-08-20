@@ -1,0 +1,23 @@
+{
+  "record": {
+    "image_id": "test_001",
+    "n_objects": 14,
+    "mean_area": 200.86,
+    "density_class": "sparse",
+    "quality_flag": "ok",
+    "density_class_computed": "sparse",
+    "area_fraction": 0.0429,
+    "mean_eccentricity": 0.6358,
+    "mean_solidity": 0.9468,
+    "mean_intensity": 0.2311,
+    "llm_n_objects_raw": 14,
+    "llm_mean_area_raw": 200.8571,
+    "narrative": "**\nThe segmented field contains 14 distinct objects, with a mean area of approximately 201 square units. The objects are relatively small, with a median equivalent diameter of about 14.4 units. The density of objects is sparse, covering only about 4.3% of the total area.\n\n**",
+    "dice_vs_gt": 0.995007132668508,
+    "iou_vs_gt": 0.9900638750922414,
+    "unet_dice_vs_gt": 0.995007132668508,
+    "unet_iou_vs_gt": 0.9900638750922414
+  },
+  "llm_raw": "**PARAGRAPH:**\nThe segmented field contains 14 distinct objects, with a mean area of approximately 201 square units. The objects are relatively small, with a median equivalent diameter of about 14.4 units. The density of objects is sparse, covering only about 4.3% of the total area.\n\n**JSON:**\n{\n  \"image_id\": \"test_001\",\n  \"n_objects\": 14,\n  \"mean_area\": 200.8571,\n  \"density_class\": \"sparse\",\n  \"quality_flag\": \"ok\"\n}",
+  "numeric_summary": "n_objects: 14\narea: mean=200.8571, std=155.6213, min=58.0000, max=625.0000, median=163.5000\neccentricity: mean=0.6358, std=0.1864, min=0.1758, max=0.9470, median=0.6415\nsolidity: mean=0.9468, std=0.0381, min=0.8289, max=0.9877, median=0.9533\nmean_intensity: mean=0.2311, std=0.0298, min=0.1941, max=0.2966, median=0.2219\nequivalent_diameter_area: mean=15.0033, std=5.5355, min=8.5935, max=28.2095, median=14.4177\ntotal_area_px: 2812.0\narea_fraction: 0.0429\ndensity_class_heuristic: sparse\narea_fraction_mask: 0.0429"
+}

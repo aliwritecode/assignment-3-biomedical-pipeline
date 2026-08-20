@@ -1,0 +1,17 @@
+variant,n_objects,mean_area,area_fraction,unet_dice_vs_clean_gt,otsu_dice_vs_clean_gt,mean_intensity,density_class,quality_flag,narrative,quality_flag_computed,llm_quality_flag_raw
+clean,8,191.12,0.0233,0.9964,0.9828,0.2248,sparse,ok,"**
+The segmented field contains 8 distinct objects, with a mean area of approximately 191.13 pixels. The objects appear to be relatively small and irregularly shaped, with a range of areas from 59 to 428 pixels. The density of objects is sparse, suggesting that the field is not densely populated with features.
+
+**",ok,ok
+blur,7,461.86,0.0493,0.6436,0.7027,0.0806,sparse,ok,"**
+The segmented field contains 7 distinct objects, with a mean area of approximately 462 square units. The objects are relatively sparse, with a mean area fraction of 4.93%. The density class is inferred to be sparse based on the area fraction heuristic.
+
+**",ok,ok
+lowcontrast,1,65536.0,1.0,0.0457,0.928,0.4233,sparse,review,"**
+The segmented field contains a single object with a uniform intensity and a well-defined boundary. The object's shape is circular, as indicated by its high solidity and low eccentricity values. The mean intensity of the object is relatively low, suggesting that it may be a region of low contrast or a feature that is not well-represented in the image.
+
+**",review,ok
+noise,1483,3.13,0.0709,0.2045,0.566,0.2899,dense,review,"**
+The segmented field contains a large number of small objects, with a mean area of approximately 3.13 pixels. The objects are relatively circular in shape, with a mean eccentricity of 0.52 and a mean solidity of 0.99. The mean intensity of the objects is relatively low, at 0.29. The equivalent diameter of the objects is approximately 1.84 pixels.
+
+**",review,ok

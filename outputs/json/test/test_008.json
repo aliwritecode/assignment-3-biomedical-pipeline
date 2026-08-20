@@ -1,0 +1,23 @@
+{
+  "record": {
+    "image_id": "test_008",
+    "n_objects": 23,
+    "mean_area": 239.35,
+    "density_class": "normal",
+    "quality_flag": "uncertain",
+    "density_class_computed": "normal",
+    "area_fraction": 0.084,
+    "mean_eccentricity": 0.5999,
+    "mean_solidity": 0.9453,
+    "mean_intensity": 0.2427,
+    "llm_n_objects_raw": 23,
+    "llm_mean_area_raw": 239.3478,
+    "narrative": "**\nThe segmented field contains 23 distinct objects, with a mean area of approximately 239.35 square pixels. The objects appear to be relatively evenly distributed, with a density classification of \"normal\" based on the area fraction. However, the quality of the segmentation is uncertain due to the lack of information about the image itself.\n\n**",
+    "dice_vs_gt": 0.9967355821548118,
+    "iou_vs_gt": 0.993492407810287,
+    "unet_dice_vs_gt": 0.9967355821548118,
+    "unet_iou_vs_gt": 0.993492407810287
+  },
+  "llm_raw": "**PARAGRAPH:**\nThe segmented field contains 23 distinct objects, with a mean area of approximately 239.35 square pixels. The objects appear to be relatively evenly distributed, with a density classification of \"normal\" based on the area fraction. However, the quality of the segmentation is uncertain due to the lack of information about the image itself.\n\n**JSON:**\n{\n  \"image_id\": \"test_008\",\n  \"n_objects\": 23,\n  \"mean_area\": 239.3478,\n  \"density_class\": \"normal\",\n  \"quality_flag\": \"uncertain\"\n}",
+  "numeric_summary": "n_objects: 23\narea: mean=239.3478, std=210.3018, min=53.0000, max=1019.0000, median=174.0000\neccentricity: mean=0.5999, std=0.2172, min=0.0225, max=0.9504, median=0.5827\nsolidity: mean=0.9453, std=0.0480, min=0.7384, max=0.9761, median=0.9620\nmean_intensity: mean=0.2427, std=0.0363, min=0.1770, max=0.3015, median=0.2445\nequivalent_diameter_area: mean=16.2713, std=6.3239, min=8.2147, max=36.0199, median=14.8843\ntotal_area_px: 5505.0\narea_fraction: 0.0840\ndensity_class_heuristic: normal\narea_fraction_mask: 0.084"
+}

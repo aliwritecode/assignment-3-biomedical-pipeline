@@ -1,0 +1,23 @@
+{
+  "record": {
+    "image_id": "test_011",
+    "n_objects": 20,
+    "mean_area": 184.25,
+    "density_class": "normal",
+    "quality_flag": "uncertain",
+    "density_class_computed": "normal",
+    "area_fraction": 0.0562,
+    "mean_eccentricity": 0.6393,
+    "mean_solidity": 0.9578,
+    "mean_intensity": 0.2495,
+    "llm_n_objects_raw": 20,
+    "llm_mean_area_raw": 184.25,
+    "narrative": "**\nThe segmented field contains 20 objects with varying sizes, with a mean area of approximately 184.25 pixels. The objects appear to be relatively compact, with a mean solidity of 0.958 and a mean eccentricity of 0.639. The mean intensity of the objects is relatively low, at 0.2495. The density of the objects is classified as normal according to the heuristic, but the quality of the segmentation is uncertain due to the lack of information about the image itself.\n\n**",
+    "dice_vs_gt": 0.9946989261934621,
+    "iou_vs_gt": 0.9894537587913862,
+    "unet_dice_vs_gt": 0.9946989261934621,
+    "unet_iou_vs_gt": 0.9894537587913862
+  },
+  "llm_raw": "**PARAGRAPH:**\nThe segmented field contains 20 objects with varying sizes, with a mean area of approximately 184.25 pixels. The objects appear to be relatively compact, with a mean solidity of 0.958 and a mean eccentricity of 0.639. The mean intensity of the objects is relatively low, at 0.2495. The density of the objects is classified as normal according to the heuristic, but the quality of the segmentation is uncertain due to the lack of information about the image itself.\n\n**JSON:**\n{\n  \"image_id\": \"test_011\",\n  \"n_objects\": 20,\n  \"mean_area\": 184.25,\n  \"density_class\": \"normal\",\n  \"quality_flag\": \"uncertain\"\n}",
+  "numeric_summary": "n_objects: 20\narea: mean=184.2500, std=145.0351, min=55.0000, max=754.0000, median=145.0000\neccentricity: mean=0.6393, std=0.1455, min=0.2321, max=0.8203, median=0.6638\nsolidity: mean=0.9578, std=0.0224, min=0.9128, max=1.0000, median=0.9629\nmean_intensity: mean=0.2495, std=0.0433, min=0.1787, max=0.3151, median=0.2500\nequivalent_diameter_area: mean=14.5563, std=4.7654, min=8.3683, max=30.9842, median=13.5868\ntotal_area_px: 3685.0\narea_fraction: 0.0562\ndensity_class_heuristic: normal\narea_fraction_mask: 0.0562"
+}

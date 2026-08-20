@@ -1,0 +1,23 @@
+{
+  "record": {
+    "image_id": "test_007",
+    "n_objects": 23,
+    "mean_area": 205.57,
+    "density_class": "normal",
+    "quality_flag": "ok",
+    "density_class_computed": "normal",
+    "area_fraction": 0.0721,
+    "mean_eccentricity": 0.6509,
+    "mean_solidity": 0.9399,
+    "mean_intensity": 0.2449,
+    "llm_n_objects_raw": 23,
+    "llm_mean_area_raw": 205.5652,
+    "narrative": "**\nThe image contains 23 distinct objects, with a mean area of approximately 206 square pixels. The objects exhibit a range of sizes, with a median area of 148 square pixels. The density of the objects appears to be normal, with a relatively even distribution across the image.\n\n**",
+    "dice_vs_gt": 0.996306068601973,
+    "iou_vs_gt": 0.9926393270257331,
+    "unet_dice_vs_gt": 0.996306068601973,
+    "unet_iou_vs_gt": 0.9926393270257331
+  },
+  "llm_raw": "**PARAGRAPH:**\nThe image contains 23 distinct objects, with a mean area of approximately 206 square pixels. The objects exhibit a range of sizes, with a median area of 148 square pixels. The density of the objects appears to be normal, with a relatively even distribution across the image.\n\n**JSON:**\n{\n  \"image_id\": \"test_007\",\n  \"n_objects\": 23,\n  \"mean_area\": 205.5652,\n  \"density_class\": \"normal\",\n  \"quality_flag\": \"ok\"\n}",
+  "numeric_summary": "n_objects: 23\narea: mean=205.5652, std=157.6551, min=58.0000, max=588.0000, median=148.0000\neccentricity: mean=0.6509, std=0.1629, min=0.2847, max=0.8782, median=0.7047\nsolidity: mean=0.9399, std=0.0357, min=0.8699, max=1.0000, median=0.9500\nmean_intensity: mean=0.2449, std=0.0388, min=0.1753, max=0.2988, median=0.2445\nequivalent_diameter_area: mean=15.1798, std=5.5954, min=8.5935, max=27.3617, median=13.7273\ntotal_area_px: 4728.0\narea_fraction: 0.0721\ndensity_class_heuristic: normal\narea_fraction_mask: 0.0721"
+}

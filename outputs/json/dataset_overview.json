@@ -1,0 +1,34 @@
+{
+  "n_train": 80,
+  "n_val": 20,
+  "n_test": 12,
+  "density_counts": {
+    "test/clustered": 2,
+    "test/dense": 2,
+    "test/normal": 6,
+    "test/sparse": 2,
+    "train/clustered": 13,
+    "train/dense": 13,
+    "train/normal": 40,
+    "train/sparse": 14,
+    "val/clustered": 3,
+    "val/dense": 3,
+    "val/normal": 10,
+    "val/sparse": 4
+  },
+  "n_objects_range": [
+    5,
+    85
+  ],
+  "image_size": [
+    256,
+    256
+  ],
+  "modality": "synthetic fluorescence microscopy (DAPI-like stained nuclei)",
+  "eda_figure": "/Users/aliraza/Desktop/ASSIGNMENT 3/outputs/figures/task1_eda.png",
+  "processed_counts": {
+    "train": 80,
+    "val": 20,
+    "test": 12
+  }
+}

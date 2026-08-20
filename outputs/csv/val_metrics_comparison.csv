@@ -1,0 +1,5 @@
+method,val_Dice,val_IoU
+Otsu + morphology,0.9761,0.9533
+U-Net (bce),0.9961,0.9922
+U-Net (dice),0.9956,0.9912
+U-Net (bce_dice),0.9961,0.9923

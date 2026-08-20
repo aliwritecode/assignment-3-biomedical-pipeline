@@ -1,0 +1,49 @@
+image_id,n_objects,mean_area,density_class,quality_flag,density_class_computed,area_fraction,mean_eccentricity,mean_solidity,mean_intensity,llm_n_objects_raw,llm_mean_area_raw,narrative,dice_vs_gt,iou_vs_gt,unet_dice_vs_gt,unet_iou_vs_gt
+test_000,8,191.12,sparse,ok,sparse,0.0233,0.6337,0.9623,0.2248,8,191.125,"**
+The segmented field contains 8 distinct objects, with a mean area of approximately 191.13 pixels. The objects exhibit a range of sizes, with a median area of 177.5 pixels. The field appears to be relatively sparse, with a low area fraction of 0.0233.
+
+**",0.9964087495930758,0.9928432010456453,0.9964087495930758,0.9928432010456453
+test_001,14,200.86,sparse,ok,sparse,0.0429,0.6358,0.9468,0.2311,14,200.8571,"**
+The segmented field contains 14 distinct objects, with a mean area of approximately 201 square units. The objects are relatively small, with a median equivalent diameter of about 14.4 units. The density of objects is sparse, covering only about 4.3% of the total area.
+
+**",0.995007132668508,0.9900638750922414,0.995007132668508,0.9900638750922414
+test_002,27,211.26,normal,ok,normal,0.087,0.6608,0.9483,0.236,27,211.2593,"**
+The segmented field contains 27 distinct objects, with a mean area of approximately 211.3 square pixels. The objects exhibit a range of sizes, with a median area of 184 square pixels. The density of objects appears to be within a normal range, but a more detailed analysis is needed to confirm this classification.
+
+**",0.9964050854891359,0.9928359252153004,0.9964050854891359,0.9928359252153004
+test_003,19,204.16,normal,ok,normal,0.0592,0.6973,0.9606,0.2523,19,204.1579,"**
+The segmented field contains 19 distinct objects, with a mean area of approximately 204 square units. The objects exhibit a range of shapes and sizes, with some being more circular (indicated by a mean eccentricity of 0.697) and others being more irregular. The mean intensity of the objects is relatively low, suggesting that they may be composed of a sparse material. Overall, the field appears to be relatively normal in terms of object density.
+
+**",0.9959901694481968,0.9920123679484637,0.9959901694481968,0.9920123679484637
+test_004,43,328.33,dense,uncertain,dense,0.2154,0.656,0.9292,0.25,43,328.3256,"**
+The segmented field contains 43 distinct objects, with a mean area of approximately 328.3 square pixels. The objects are relatively dense, with an area fraction of 21.54%. The mean intensity of the objects is around 0.25, suggesting a moderate level of staining or contrast. Further analysis is needed to determine the quality of the segmentation and the underlying biological features.
+
+**",0.9952291762379323,0.9905036578509775,0.9952291762379323,0.9905036578509775
+test_005,16,406.75,normal,uncertain,normal,0.0993,0.638,0.9299,0.2445,16,406.75,"**
+The segmented field contains 16 distinct objects, with a mean area of approximately 407 pixels. The density of the objects is classified as normal, and the quality of the segmentation is uncertain due to the variability in object size and shape.
+
+**",0.9958569894126241,0.9917481662604297,0.9958569894126241,0.9917481662604297
+test_006,8,198.38,sparse,ok,sparse,0.0242,0.6205,0.9591,0.2693,8,198.375,"**
+The image appears to contain 8 distinct objects, with a mean area of approximately 198.4 pixels. The objects are relatively small and sparse, with a median equivalent diameter of about 16.03 pixels. The mean intensity of the objects is relatively low, suggesting they may be of a certain type or have a specific characteristic.
+
+**",0.9971581938752263,0.9943324937063397,0.9971581938752263,0.9943324937063397
+test_007,23,205.57,normal,ok,normal,0.0721,0.6509,0.9399,0.2449,23,205.5652,"**
+The image contains 23 distinct objects, with a mean area of approximately 206 square pixels. The objects exhibit a range of sizes, with a median area of 148 square pixels. The density of the objects appears to be normal, with a relatively even distribution across the image.
+
+**",0.996306068601973,0.9926393270257331,0.996306068601973,0.9926393270257331
+test_008,23,239.35,normal,uncertain,normal,0.084,0.5999,0.9453,0.2427,23,239.3478,"**
+The segmented field contains 23 distinct objects, with a mean area of approximately 239.35 square pixels. The objects appear to be relatively evenly distributed, with a density classification of ""normal"" based on the area fraction. However, the quality of the segmentation is uncertain due to the lack of information about the image itself.
+
+**",0.9967355821548118,0.993492407810287,0.9967355821548118,0.993492407810287
+test_009,21,179.0,normal,ok,normal,0.0574,0.617,0.9573,0.2364,21,179.0,"**
+The segmented field contains 21 distinct objects, with a mean area of approximately 179 square pixels. The objects exhibit a range of shapes and sizes, with some appearing more elongated than others. The mean intensity of the objects is relatively low, suggesting that they may be composed of a relatively faint or diffuse material.
+
+**",0.9960021321966949,0.9920361030018486,0.9960021321966949,0.9920361030018486
+test_010,38,343.82,normal,ok,normal,0.1994,0.7246,0.9173,0.2516,38,343.8158,"**
+The segmented field contains 38 distinct objects. The mean area of these objects is approximately 344 square pixels. The objects exhibit a range of sizes, with a median area of 217 square pixels. The density of the objects is classified as normal, indicating a moderate level of object density within the field.
+
+**",0.995824874554877,0.9916844675013973,0.995824874554877,0.9916844675013973
+test_011,20,184.25,normal,uncertain,normal,0.0562,0.6393,0.9578,0.2495,20,184.25,"**
+The segmented field contains 20 objects with varying sizes, with a mean area of approximately 184.25 pixels. The objects appear to be relatively compact, with a mean solidity of 0.958 and a mean eccentricity of 0.639. The mean intensity of the objects is relatively low, at 0.2495. The density of the objects is classified as normal according to the heuristic, but the quality of the segmentation is uncertain due to the lack of information about the image itself.
+
+**",0.9946989261934621,0.9894537587913862,0.9946989261934621,0.9894537587913862
